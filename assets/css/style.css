@@ -11,6 +11,18 @@
     --highlight-color-light: #273c1a; /* dark green */
 }
 
+/* Global styles */
+body {
+    font-family: var(--primary-font);
+    padding-top: 96px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
+}
 /*navbar */
 
 .navbar {
