@@ -4,7 +4,7 @@
 ## Style Selection
 
 ### Fonts
-[Londrina Shadow and TikTok](https://fonts.google.com/share?selection.family=Londrina+Shadow|TikTok+Sans:opsz,wght@12..36,300..900)
+[Londrina Solid and TikTok]https://fonts.google.com/share?selection.family=Londrina+Solid:wght@100;300;400;900|TikTok+Sans:opsz,wght@12..36,300..900
 
 ### Color Selection
 
