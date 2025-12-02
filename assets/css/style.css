@@ -1,9 +1,27 @@
+/*font imports */
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
 
-
-
+/* CSS Variables */
+:root {
+    --primary-font: "TikTok Sans", sans-serif;
+    --secondary-font: "Londrina Shadow", sans-serif;
+    --primary-color: #2C1F0Bff; /* dark coffee */
+    --secondary-color: #F7F6DBff; /* beige */
+    --highlight-color: #9AA967ff; /* palm leaf */
+    --highlight-color-light: #273c1a; /* dark green */
+}
 
 /*navbar */
 
+.navbar {
+    font-family: var(--primary-font);
+    background-color: var(--primary-color);
+}
+
+.navbar * {
+    color: var(--secondary-color);
+}
+
 #navbar-logo {
-  max-height: 50px;
+  max-height: 70px;
 }
