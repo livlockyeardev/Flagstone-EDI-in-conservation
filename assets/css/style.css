@@ -51,12 +51,15 @@ h3 {
   position: relative;
 }
 
-/* Only use fixed background on large screens to avoid mobile layout issues */
-@media (min-width: 992px) {
-  #header {
-    background-attachment: fixed;
-  }
+/* Footer */
+
+/*force footer within screen width */
+footer {
+    max-width:100%;
+    background-color: var(--primary-color);
 }
+
+
 
 #header-text {
   position: relative;
@@ -67,8 +70,8 @@ h3 {
 
 /* Safety: ensure images never force overflow */
 img {
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
 }
 
 /* quick guide */
@@ -79,6 +82,7 @@ img {
 }
 .card-body {
     height: auto;
+    max-width: 90%;
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -95,7 +99,13 @@ img {
     #services .card-body {
         min-height: 220px;
     }
+    /* Only use fixed background on large screens to avoid mobile layout issues */
+
+  #header {
+    background-attachment: fixed;
+  }
 }
+      
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {

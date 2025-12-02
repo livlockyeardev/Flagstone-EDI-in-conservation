@@ -116,10 +116,10 @@
 
     <!-- Definitions Section -->
 
-    <section id="definitions" class="container my-4">
+    <section id="definitions" class="container-fluid my-4">
       <div class="row g-4 align-items-center"> 
         <!-- Left list -->
-        <div class="col-12 col-lg-4 col-xl-3">
+        <div class="col-12 col-lg-4 col-xl-3 text-center text-md-start">
           <h2 class="display-4">What is EDI?</h2>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
@@ -166,7 +166,7 @@
         </div>
 
         <!-- Right list -->
-        <div class="col-12 col-lg-4 col-xl-3 text-end">
+        <div class="col-12 col-lg-4 col-xl-3 text-center text-md-end">
           <h2 class="display-4">What does it look like?</h2>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">
@@ -195,7 +195,7 @@
       </div>
     </section>
 
-<section class="container my-5" id="edi-tips">
+<section class="container-fluid my-5" id="edi-tips">
   <h2 class="mb-4 text-center display-4">Quick Guide to EDI implementation in Conservation</h2>
 
   <div class="row g-4 text-center">
@@ -280,6 +280,90 @@
     </div>
   </div>
 </section>
+
+<footer class="text-light pt-5 pb-4" data-bs-theme="dark">
+  <div class="container-fluid">
+    <div class="row gy-4 align-items-start">
+      <!-- Left: charity name, logo, contact, social -->
+      <div class="col-12 col-md-4">
+        <div class="d-flex align-items-center mb-3">
+          <img src="/assets/images/logo.png" alt="Conservation 4 All logo" style="height:56px;" class="me-2">
+          <div>
+            <h5 class="mb-0">Conservation 4 All</h5>
+            <small class="text-muted">Charity no. 1234567</small>
+          </div>
+        </div>
+
+        <address class="fs-sm mb-3">
+          <strong>Email:</strong>
+          <a class="text-light d-block" href="mailto:info@conservation4all.org">info@conservation4all.org</a>
+          <strong>Phone:</strong>
+          <div class="d-block">+44 1234 567890</div>
+          <strong>Address:</strong>
+          <div class="d-block">12 Green Lane, London, UK, G1 1AA</div>
+        </address>
+
+        <div>
+          <strong class="d-block mb-2">Follow us</strong>
+          <a href="https://twitter.com/yourorg" class="text-light me-3" aria-label="Twitter" target="_blank" rel="noopener">
+            <i class="fab fa-twitter fa-lg"></i>
+          </a>
+          <a href="https://facebook.com/yourorg" class="text-light me-3" aria-label="Facebook" target="_blank" rel="noopener">
+            <i class="fab fa-facebook fa-lg"></i>
+          </a>
+          <a href="https://instagram.com/yourorg" class="text-light me-3" aria-label="Instagram" target="_blank" rel="noopener">
+            <i class="fab fa-instagram fa-lg"></i>
+          </a>
+          <a href="https://linkedin.com/company/yourorg" class="text-light" aria-label="LinkedIn" target="_blank" rel="noopener">
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Middle: partners -->
+      <div class="col-12 col-md-4 text-center">
+        <h5 class="mb-3">In partnership with</h5>
+        <div class="d-flex flex-wrap justify-content-center align-items-center gap-3">
+          <a href="https://partner1.example" target="_blank" rel="noopener" class="d-inline-block" aria-label="Partner 1">
+            <img src="/assets/images/partner1.png" alt="Partner 1" style="height:48px; max-width:120px;">
+          </a>
+          <a href="https://partner2.example" target="_blank" rel="noopener" class="d-inline-block" aria-label="Partner 2">
+            <img src="/assets/images/partner2.png" alt="Partner 2" style="height:48px; max-width:120px;">
+          </a>
+          <a href="https://partner3.example" target="_blank" rel="noopener" class="d-inline-block" aria-label="Partner 3">
+            <img src="/assets/images/partner3.png" alt="Partner 3" style="height:48px; max-width:120px;">
+          </a>
+          <!-- Add more partner links as needed -->
+        </div>
+      </div>
+
+      <!-- Right: sign up for training pack -->
+      <div class="col-12 col-md-4">
+        <h5 class="mb-3">Sign up for our training pack</h5>
+        <p class="small text-muted">Receive free resources and updates about training and events.</p>
+
+        <form action="#" method="post" class="mb-3" aria-label="Training pack sign up">
+          <div class="input-group">
+            <label for="footer-email" class="visually-hidden">Email address</label>
+            <input id="footer-email" name="email" type="email" class="form-control" placeholder="you@example.org" required>
+            <button type="submit" class="btn btn-success">Send</button>
+          </div>
+        </form>
+
+        <p class="small">Or <a href="/training-pack.html" class="text-light">download the pack</a> directly.</p>
+      </div>
+    </div>
+
+    <hr class="border-light mt-4">
+
+    <div class="row">
+      <div class="col-12 text-center small text-muted">
+        &copy; <span id="footer-year"></span> Conservation 4 All · <a href="/privacy.html" class="text-light">Privacy</a> · <a href="/terms.html" class="text-light">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
