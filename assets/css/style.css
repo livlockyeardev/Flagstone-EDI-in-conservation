@@ -41,21 +41,34 @@ h3 {
 
 /* header */
 #header {
-    height: 500px;
-    background-color: var(--highlight-color);
-    /* Linear Gradient creates overlay */
-    background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("../images/hero.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-    width: 100vw;
-    position: relative;
+  min-height: 60vh;
+  background-color: var(--highlight-color);
+  background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  position: relative;
 }
 
-#header p {
-    font-size: 1rem;
-    font-weight: 600;
+/* Only use fixed background on large screens to avoid mobile layout issues */
+@media (min-width: 992px) {
+  #header {
+    background-attachment: fixed;
+  }
+}
+
+#header-text {
+  position: relative;
+  padding-top: 50px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Safety: ensure images never force overflow */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 /* quick guide */
