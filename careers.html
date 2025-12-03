@@ -82,7 +82,9 @@
               >
             </li>
           </ul>
-          <button class="btn" type="button">Get Training</button>
+          <button type="button" class="btn ms-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Get Training
+</button>
         </div>
       </div>
     </nav>
@@ -271,6 +273,8 @@
         </li>
       </ul>
     </section>
+    <!-- Button trigger modal -->
+
 
     <footer class="text-light pt-5 pb-4" data-bs-theme="dark">
       <div class="container-fluid">
@@ -405,13 +409,35 @@
               EDI? Receive free resources and updates about training and events.
             </p>
 
-            <button class="btn" type="button">Get Training</button>
+            <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#training-pack-modal">
+  Get Training
+</button>
           </div>
         </div>
       </div>
 
       <hr class="border-light mt-4" />
     </footer>
+    
+
+<!-- Modal -->
+<div class="modal fade" id="training-pack-modal" tabindex="-1" aria-labelledby="trainingPackModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="trainingPackModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <!-- Bootstrap JS -->
     <script
