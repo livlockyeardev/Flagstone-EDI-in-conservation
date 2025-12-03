@@ -81,12 +81,26 @@ img {
     height: auto;
     max-width: 90%;
 }
+/* carousel careers */
 
+
+.carousel-photo {
+    height:auto;
+    width: 90vw;
+    border-radius: 50px;
+}
+
+.carousel-caption {
+    position: static;
+    top: 20px;
+    color: var(--primary-color);
+    text-align: center;
+}
 /* Footer */
 
 /*force footer within screen width */
 footer {
-    max-width:100%;
+    max-width:100vw;
     background-color: var(--primary-color);
 }
 
@@ -101,6 +115,9 @@ footer {
     /* Make all service cards the same height for consistency */
    .card-body {
         min-height: 191px;
+    }
+    .carousel-photo {
+        width: 60vw;
     }
 }
 
@@ -118,8 +135,10 @@ footer {
   #top-link:hover {
     color: rgb(116, 104, 104);
 }
+    .carousel-photo {
+            width: 40vw;
 }
-      
+} 
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
