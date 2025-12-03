@@ -51,7 +51,12 @@ h3 {
   position: relative;
 }
 
-
+.btn {
+    font-family: var(--primary-font);
+    background-color: var(--highlight-color);
+    color: var(--secondary-color);
+    border: 2px solid var(--highlight-color-light);
+}
 
 #header-text {
   position: relative;
