@@ -51,14 +51,6 @@ h3 {
   position: relative;
 }
 
-/* Footer */
-
-/*force footer within screen width */
-footer {
-    max-width:100%;
-    background-color: var(--primary-color);
-}
-
 
 
 #header-text {
@@ -85,6 +77,20 @@ img {
     max-width: 90%;
 }
 
+/* Footer */
+
+/*force footer within screen width */
+footer {
+    max-width:100%;
+    background-color: var(--primary-color);
+}
+
+#top-link {
+    text-decoration: none;
+    color: rgb(221, 255, 157);
+    margin-top:20px;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     /* Make all service cards the same height for consistency */
@@ -104,6 +110,9 @@ img {
   #header {
     background-attachment: fixed;
   }
+  #top-link:hover {
+    color: rgb(116, 104, 104);
+}
 }
       
 
