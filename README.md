@@ -40,3 +40,41 @@ For this project, I first came up with 6 user stories:
 
 This led to the following wireframe designs:
 
+![Wireframe design](docs/wireframe_home.png)
+![Wireframe design](docs/wireframe_careers.png)
+
+This led to the following planning board with each story given a priority. 
+
+![Planning board for website](docs/planning-board.png)
+
+I was able to complete 5/6 of the stories in the given time, leaving out statistics and changing the subscribe option to link to a sign up for a full training programme.
+
+## Use of AI
+
+I used AI for...
+Content creation:
+-Generate User Stories
+-Supply facts and figures
+-Generate hero image
+-Generate EDI tips
+
+Coding:
+-Troubleshooting
+-Explaining snippets of code/coaching
+-Repetitive code generation 
+-Changing multiple places in the code simultaneously
+
+## Testing
+
+CSS and HTML validation cleared. CSS warnings for use of vendor extensions.
+![CSS validation](docs/css_validation.png)
+![HTML test](docs/html-validator-careers.png)
+![HTML test](docs/html-validator-home.png)
+
+Lighthouse Testing
+
+Best practice score brought down by use of third party cookies within embedded video link.
+![home lighthouse test](docs/lighthouse_careers.png)
+![careers lighthouse test](docs/lighthouse_careers.png)
+
+
