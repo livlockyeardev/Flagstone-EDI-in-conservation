@@ -75,6 +75,6 @@ Lighthouse Testing
 
 Best practice score brought down by use of third party cookies within embedded video link.
 ![home lighthouse test](docs/lighthouse_careers.png)
-![careers lighthouse test](docs/lighthouse_careers.png)
+![careers lighthouse test](docs/lighthouse_home.png)
 
 
