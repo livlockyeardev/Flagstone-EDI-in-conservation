@@ -1,3 +1,4 @@
+
 /*font imports */
 @import url("https://fonts.googleapis.com/css2?family=Basic&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap");
 
@@ -57,6 +58,18 @@ h3 {
 #header {
   min-height: 80vh;
   background-color: var(--highlight-color);
+  background-image: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgba(255, 255, 255, 0.6)),
+      to(rgba(255, 255, 255, 0.6))
+    ),
+    url("../images/hero.png");
+  background-image: -o-linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("../images/hero.png");
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.6)
@@ -67,12 +80,20 @@ h3 {
   background-size: cover;
   width: 100%;
 position: relative;
-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+-webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 
   /* place header content at the bottom */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 /* ensure the header text block sits at the bottom and has sensible padding */
@@ -86,6 +107,18 @@ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 #career_header {
   min-height: 60vh;
   background-color: var(--highlight-color);
+  background-image: -webkit-gradient(
+      linear,
+      left top, left bottom,
+      from(rgba(255, 255, 255, 0.6)),
+      to(rgba(255, 255, 255, 0.6))
+    ),
+    url("../images/career_hero.jpg");
+  background-image: -o-linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url("../images/career_hero.jpg");
   background-image: linear-gradient(
       rgba(255, 255, 255, 0.6),
       rgba(255, 255, 255, 0.6)
@@ -96,10 +129,18 @@ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
   background-size: cover;
   width: 100%;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 
 }
 
@@ -132,7 +173,9 @@ box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
 
 /* Make the three columns in the Definitions section align at the top */
 #definitions .row.g-4 {
-  align-items: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
 }
 
 /* Safety: ensure images never force overflow */
@@ -145,7 +188,8 @@ img {
 
 .card-img-top {
   height: 220px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .card-body {
   height: auto;
