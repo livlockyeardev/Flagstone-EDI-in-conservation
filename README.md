@@ -3,7 +3,7 @@
 ##Project Brief 1 - Diversity and Inclusion Website - EDI in Conservation
 ### This website is built for a made-up charity 'Conservation4All', that aims to address the lack of diversity in the Conservation sector as a whole. The website's primary purpose is to offer guidance and training to environmental organisations and charities. This is achieved through concise explanations and a guide on EDI best practice, followed by a call to action to sign up to a full training programme, should they wish. As an extension, the charity also attempts to reset the imbalance by helping those who may be facing barriers beginning their career in conservation. To achieve this, the careers section offers inspirational advice from those in the field and lists paid opportunities in the sector. The website is fully responsive on all screen sizes and has clear navigation for a great user experience.
 
-![Responsive Website Mockup](docs\responsive.png)
+![Responsive Website Mockup](docs/responsive.png)
 
 ## Style Selection
 
@@ -12,4 +12,4 @@
 
 ### Color Selection
 
-![Palette Selector tool](docs\color-pallete-selection.png)
+![Palette Selector tool](docs/color-pallete-selection.png)
